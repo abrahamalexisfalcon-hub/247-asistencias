@@ -65,7 +65,7 @@ function ServiceDetailPage() {
           <h1 className="text-4xl md:text-5xl font-extrabold text-slate-950 tracking-tight leading-tight">
             Especialistas en <span className="text-[#01ABEC]">{service.title}</span>
           </h1>
-          <p className="mt-5 text-lg md:text-xl text-slate-700 max-w-4xl leading-relaxed">
+          <p className="mt-5 text-lg md:text-xl text-slate-700 max-w-4xl leading-relaxed text-left">
             {service.description}
           </p>
         </div>

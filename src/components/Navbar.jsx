@@ -16,10 +16,6 @@ function Navbar({ variant = 'solid' }) {
     ? 'text-white hover:text-[#01ABEC]'
     : 'text-gray-800 hover:text-[#01ABEC]';
 
-  const logoSrc = isTransparent
-    ? '/imagenes/Logo_blanco.png'
-    : '/imagenes/Logo_negro.svg';
-
   const toggleMenu = () => setIsOpen(!isOpen);
 
   // Helper para verificar si la ruta está activa
@@ -33,7 +29,7 @@ function Navbar({ variant = 'solid' }) {
           {/* LOGO */}
           <Link to="/" className="flex items-center transition-transform hover:scale-102">
             <img
-              src={logoSrc}
+              src="/imagenes/Logo_blanco.png"
               alt="Logo 24/7 Asistencias"
               className="w-20 md:w-28 h-auto object-contain"
             />

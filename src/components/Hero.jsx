@@ -1,13 +1,13 @@
 function Hero(){
     return(
-<section className="relative min-h-[75vh] md:min-h-screen flex flex-col pb-10"> 
+<section className="relative min-h-[75vh] md:min-h-screen flex flex-col pt-32 md:pt-0 pb-10"> 
 
     {/* CONTENEDOR DE TEXTO */}
-    <div className="flex flex-col gap-7 md:gap-15 mt-auto mb-auto relative text-white z-10 px-8 md:px-12 md:text-center md:items-center">
-        <h1 className="font-bold text-4xl md:text-5xl md:mx-auto tracking-tight leading-tight">
+    <div className="flex flex-col gap-5 md:gap-15 mt-auto mb-auto relative text-white z-10 px-8 md:px-12 md:text-center md:items-center">
+        <h1 className="font-bold text-3xl md:text-5xl md:mx-auto tracking-tight leading-tight">
             Especialistas en solucionar tus problemas <span className="text-[#01ABEC]">técnicos.</span>
         </h1>  
-        <p className="text-xl font-semibold opacity-90 md:text-2xl">
+        <p className="text-lg font-semibold opacity-90 md:text-2xl">
             Técnicos a domicilio cuando más los necesitas. Garantía y puntualidad.
         </p>
         <div className="flex justify-center w-full mt-2">
