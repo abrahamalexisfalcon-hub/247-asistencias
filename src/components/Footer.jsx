@@ -25,7 +25,7 @@ function Footer() {
         <div className="md:mt-8 flex flex-col gap-3 items-center w-full">
           <h3 className="font-bold text-lg md:text-xl text-[#01ABEC]">Zonas de cobertura</h3>
           <p className="text-gray-800 font-medium text-sm md:text-base max-w-sm leading-relaxed">
-            Atendemos emergencies y proyectos en Lima Metropolitana (Zonas Centro, Norte, Sur y Este).
+            Atendemos emergencias y proyectos en Lima Metropolitana (Zonas Centro, Norte, Sur y Este).
           </p>
         </div>
 
