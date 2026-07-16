@@ -35,11 +35,7 @@ function Footer() {
           <div className="flex flex-col gap-3 w-full items-center">
             <div className="flex items-center gap-2 font-semibold text-gray-800 text-sm md:text-base justify-center">
               <img src="/icons/Whatsapp.png" alt="WhatsApp" className="w-5 h-5 object-contain" />
-              +51 988 888 141
-            </div>
-            <div className="flex items-center gap-2 font-semibold text-gray-800 text-sm md:text-base justify-center">
-              <img src="/icons/Whatsapp.png" alt="WhatsApp" className="w-5 h-5 object-contain" />
-              +51 914 279 170
+              <p className="text-gray-800 text-sm md:text-base">988 888 141 | 914 279 170</p>
             </div>
           </div>
         </div>

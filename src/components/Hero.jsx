@@ -13,7 +13,7 @@ function Hero(){
         <div className="flex justify-center w-full mt-2">
             <a 
               className="flex text-xl md:text-2xl font-bold text-center w-full max-w-50 md:max-w-[320px] justify-center bg-[#01ABEC] py-3 px-4 rounded-xl transition-all duration-300 hover:scale-105" 
-              href="https://wa.me/51988888141"
+              href="https://wa.me/51914279170?text=Hola%2C%20quiero%20cotizar%20un%20servicio"
               target="_blank"
               rel="noopener noreferrer"
             >
